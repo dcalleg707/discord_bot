@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = "NzY2NTEzNTk2OTA0NTA1MzU0.X4kdag.RItKoucW3_eTLiIdqg5F-o2nyDE"
+TOKEN = ""
 bot = commands.Bot(command_prefix='!', help_command= None)
 bot.load_extension('music')
 @bot.event
